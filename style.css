@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(143, 163, 255) ;
+    width: 14vw;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav ul li{
+ list-style: none;
+ font-size: 20px;
+ padding: 33px 0;
+ 
+}
+
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.infoContainer{
+    background-color: yellow;
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+}
+.devPic img{
+    width: 286px;
+    height: 70vh;
+    width: 26vw;
+    
+}
+.devInfo{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+
+}
+
+
+.hello{
+    font-size: 75px;
+    font-family: 'Merriweather', serif;
+
+}
+.name{
+    font-size: 45px;
+}
+.about{
+font-size: 25px;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: plum;
+    background-color: saddlebrown;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3 px;
+    cursor: pointer; 
+}
+.buttons button:hover{
+    color: white;
+    background-color: plum;
+
+}
